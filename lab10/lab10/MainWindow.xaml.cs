@@ -53,11 +53,11 @@ namespace lab10
                                                                    : "petrol",
                                              avgHPPL = car.motor.horsePower / car.motor.displacement
                                   };
-            var queryExpresion3 = from car in queryExpresion2                                   //DO DOKOŃCZENIA
+            /*var queryExpresion3 = from car in queryExpresion2                                   //DO DOKOŃCZENIA
                                   group car by car.engineType into temp
                                   orderby temp descending
                                   select;
-                                  
+              */                    
                                   
 
 
